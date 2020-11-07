@@ -1,4 +1,4 @@
-@-webkit-keyframes MOVE-BG {
+@-webkit-keyframes MOVE-RT {
   from {
     -webkit-transform: translateX(0);
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@keyframes MOVE-BG {
+@keyframes MOVE-RT {
   from {
     transform: translateX(0px);
   }
@@ -16,11 +16,7 @@
   }
 }
 
-.loading {
-  overflow: hidden;
-}
-
-.bg {
+.rt {
   position: absolute;
   left: -50px;
   right: 0;
@@ -43,12 +39,12 @@
     black 50px
   );
 
-  -webkit-animation-name: MOVE-BG;
+  -webkit-animation-name: MOVE-RT;
   -webkit-animation-duration: 1s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 
-  animation-name: MOVE-BG;
+  animation-name: MOVE-RT;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;

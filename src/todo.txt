@@ -1,5 +1,6 @@
 TODO:
  - direction controls
+ - size controls
  - speed controls
  - ball
  - rotation controls
@@ -14,4 +15,7 @@ TODO:
  - symptom tracker
  - recruit people to help develop
  - maybe eventually merge with concussion recovery app
+
+BRAINSTORM:
+ - 
  
