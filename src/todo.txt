@@ -1,0 +1,17 @@
+TODO:
+ - direction controls
+ - speed controls
+ - ball
+ - rotation controls
+ - rotation with zoom change
+ - rotation with flashing
+ = speed controls
+ - installable
+ - timer
+ - daily program (run several settings, one after another)
+ - deploy to better name
+ - tell people about it / make it findable / searchable
+ - symptom tracker
+ - recruit people to help develop
+ - maybe eventually merge with concussion recovery app
+ 
