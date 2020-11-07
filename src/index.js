@@ -1,3 +1,4 @@
-import "./styles.css";
-document.getElementById("stripes").classList.add("rt");
-document.getElementById("stripes").classList.add("rt");
+import "./move-rt.css";
+import "./move-lf.css";
+document.getElementById("stripes").className = "rt";
+document.getElementById("stripes").className = "lf";

@@ -1,0 +1,51 @@
+@-webkit-keyframes MOVE-LF {
+  from {
+    -webkit-transform: translateX(50px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+@keyframes MOVE-LF {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.lf {
+  position: absolute;
+  left: -50px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+
+  background: -webkit-repeating-linear-gradient(
+    90deg,
+    white 0px,
+    white 25px,
+    black 25px,
+    black 50px
+  );
+  background: repeating-linear-gradient(
+    90deg,
+    white 0px,
+    white 25px,
+    black 25px,
+    black 50px
+  );
+
+  -webkit-animation-name: MOVE-LF;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  animation-name: MOVE-LF;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
