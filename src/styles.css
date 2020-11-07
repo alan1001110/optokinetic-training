@@ -1,0 +1,55 @@
+@-webkit-keyframes MOVE-BG {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(50px);
+  }
+}
+
+@keyframes MOVE-BG {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(50px);
+  }
+}
+
+.loading {
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  left: -50px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+
+  background: -webkit-repeating-linear-gradient(
+    90deg,
+    white 0px,
+    white 25px,
+    black 25px,
+    black 50px
+  );
+  background: repeating-linear-gradient(
+    90deg,
+    white 0px,
+    white 25px,
+    black 25px,
+    black 50px
+  );
+
+  -webkit-animation-name: MOVE-BG;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  animation-name: MOVE-BG;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
