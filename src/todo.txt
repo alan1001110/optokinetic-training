@@ -1,11 +1,15 @@
 TODO:
  - direction changes ✔
  - go all 4 directions ✔
- - fix blank out bars near the ends of screen
+ - fix blank out bars near the ends of screen ✔
+ - could get bars moving and spinning by having div
+   with moving bars inside a div that is spinning?
+ - fix scroll-bar jumping (hide overflow?)
  - direction controls
  - size controls
  - speed controls
- - ball
+ - ball (infinite pattern): ball attached to edge
+   of a div that spins? Then flip it over 
  - rotation controls
  - rotation with zoom change
  - rotation with flashing
