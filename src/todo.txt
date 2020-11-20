@@ -1,4 +1,7 @@
 TODO:
+ - direction changes ✔
+ - go all 4 directions ✔
+ - fix blank out bars near the ends of screen
  - direction controls
  - size controls
  - speed controls

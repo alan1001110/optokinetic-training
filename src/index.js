@@ -1,8 +1,13 @@
 import "./move-rt.css";
 import "./move-lf.css";
-document.getElementById("stripes").className = "rt";
+import "./move-up.css";
+import "./move-dn.css";
+import "./clockwise.css";
+import "./counter-clockwise.css";
+const SECOND = 1000;
+document.getElementById("stripes").className = "dn";
 
-var directions = ["rt", "lf"];
+var directions = ["up", "lf", "rt", "clockwise", "counter-clockwise", "dn"];
 var myCycle = [];
 
 function cycleDirections() {
@@ -12,4 +17,4 @@ function cycleDirections() {
   document.getElementById("stripes").className = myCycle.shift();
 }
 
-window.setInterval(cycleDirections, 30000);
+window.setInterval(cycleDirections, 60 * SECOND);

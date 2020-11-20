@@ -1,50 +1,50 @@
-@-webkit-keyframes MOVE-RT {
+@-webkit-keyframes MOVE-DN {
   from {
-    -webkit-transform: translateX(0);
+    -webkit-transform: translateX(0px);
   }
   to {
     -webkit-transform: translateX(50px);
   }
 }
 
-@keyframes MOVE-RT {
+@keyframes MOVE-DN {
   from {
-    transform: translateX(0px);
+    transform: translateY(0px);
   }
   to {
-    transform: translateX(50px);
+    transform: translateY(50px);
   }
 }
 
-.rt {
+.dn {
   position: absolute;
-  left: -50px;
-  right: -50px;
-  top: 0px;
+  left: 0px;
+  right: 0px;
+  top: -50px;
   bottom: 0px;
   z-index: -1;
 
   background: -webkit-repeating-linear-gradient(
-    90deg,
+    0deg,
     white 0px,
     white 25px,
     black 25px,
     black 50px
   );
   background: repeating-linear-gradient(
-    90deg,
+    0deg,
     white 0px,
     white 25px,
     black 25px,
     black 50px
   );
 
-  -webkit-animation-name: MOVE-RT;
+  -webkit-animation-name: MOVE-DN;
   -webkit-animation-duration: 0.6s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 
-  animation-name: MOVE-RT;
+  animation-name: MOVE-DN;
   animation-duration: 0.6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
