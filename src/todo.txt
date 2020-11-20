@@ -8,8 +8,9 @@ TODO:
  - direction controls
  - size controls
  - speed controls
- - ball (infinite pattern): ball attached to edge
-   of a div that spins? Then flip it over 
+ - swooping ball ✔ (some bugs?)
+ - could put both stripes and looping ball in a
+   spinning div, overflow hidden
  - rotation controls
  - rotation with zoom change
  - rotation with flashing

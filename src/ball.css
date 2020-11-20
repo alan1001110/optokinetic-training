@@ -1,0 +1,44 @@
+.red-ball {
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  right: 0px;
+  margin: -15px;
+}
+
+.container-for-ball {
+  margin: 20px;
+  position: relative;
+  animation: loopy 4s linear infinite;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+@keyframes loopy {
+  0% {
+    transform: rotate(0deg) scaleX(1);
+    left: 0px;
+  }
+
+  49.9999% {
+    transform: rotate(360deg) scaleX(1);
+    left: 0px;
+  }
+
+  50% {
+    transform: rotate(180deg) scaleX(-1);
+    left: 200px;
+  }
+  50.0001% {
+    transform: rotate(180deg) scaleX(1);
+    left: 200px;
+  }
+  100% {
+    transform: rotate(-180deg) scaleX(1);
+    left: 200px;
+  }
+}
