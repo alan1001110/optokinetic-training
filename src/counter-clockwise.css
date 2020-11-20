@@ -14,7 +14,6 @@
   }
 }
 
-
 .counter-clockwise {
   margin: -50%;
   position: absolute;
@@ -24,11 +23,9 @@
   bottom: 0px;
   z-index: -1;
 
-  
   -webkit-animation: spin 4s linear infinite;
   -moz-animation: spin 4s linear infinite;
-  animation: 
-    spin 4s linear infinite,
+  animation: spin 4s linear infinite;
 
   background: -webkit-repeating-linear-gradient(
     90deg,
