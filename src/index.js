@@ -11,4 +11,4 @@ function cycleDirections() {
   document.getElementById("stripes").className = myCycle.shift();
 }
 
-window.setInterval(cycleDirections, 60 * SECOND);
+window.setInterval(cycleDirections, 5 * SECOND);
