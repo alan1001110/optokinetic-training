@@ -1,10 +1,3 @@
-import "./move-rt.css";
-import "./move-lf.css";
-import "./move-up.css";
-import "./move-dn.css";
-import "./clockwise.css";
-import "./counter-clockwise.css";
-import "./ball.css";
 const SECOND = 1000;
 document.getElementById("stripes").className = "dn";
 
