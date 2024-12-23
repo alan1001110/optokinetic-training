@@ -17,10 +17,10 @@
 .clockwise {
   margin: -50%;
   position: absolute;
-  left: -100px;
-  right: -100px;
-  top: -100px;
-  bottom: -100px;
+  left: -50px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
   z-index: -1;
 
   -webkit-animation: spin 4s linear infinite;
