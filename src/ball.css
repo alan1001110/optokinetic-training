@@ -12,7 +12,7 @@
 .container-for-ball {
   margin: 20px;
   position: absolute;
-  top: 35%;
+  top: 30%;
   animation: loopy 4s linear infinite;
   border-radius: 50%;
   height: 40%;
