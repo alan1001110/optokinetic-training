@@ -11,7 +11,9 @@
 
 .container-for-ball {
   margin: 20px;
-  position: relative;
+  position: absolute;
+  top: 40%;
+  left: 50%; /* this doesn't seem to centre it. need to find out why*/
   animation: loopy 4s linear infinite;
   border-radius: 50%;
   height: 200px;
