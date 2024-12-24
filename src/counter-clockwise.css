@@ -1,11 +1,11 @@
 @-moz-keyframes spin {
   100% {
-    -moz-transform: rotate(360deg);
+    -moz-transform: rotate(-360deg);
   }
 }
 @-webkit-keyframes spin {
   100% {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(-360deg);
   }
 }
 @keyframes spin {
@@ -22,6 +22,7 @@
   top: 0px;
   bottom: 0px;
   z-index: -1;
+  scale: 1.1;
 
   -webkit-animation: spin 4s linear infinite;
   -moz-animation: spin 4s linear infinite;
